@@ -1,0 +1,9 @@
+The general hierarchy in a Dockerfile typically follows this pattern:
+
+FROM (base image)
+WORKDIR (set working directory)
+COPY (copy files)
+RUN (install dependencies, build, etc.)
+ENV (set environment variables)
+EXPOSE (declare ports)
+CMD (the command to run when container starts)
